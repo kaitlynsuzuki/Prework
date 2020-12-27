@@ -35,8 +35,8 @@ class ViewController: UIViewController {
         let tip = bill * tipPercentages[tipControl.selectedSegmentIndex]
         let total = bill + tip
         //update labels
-        tipLabel.text = String(format: "%.2f", tip)
-        totalLabel.text = String(format: "%.2f", total)
+        tipLabel.text = String(format: "$%.2f", tip)
+        totalLabel.text = String(format: "$%.2f", total)
     }
     
 }
