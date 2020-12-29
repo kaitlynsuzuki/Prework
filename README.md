@@ -29,9 +29,9 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-<img src="https://i.imgur.com/p1LolEp.gif" width="200" height="400" />
+<img src="https://i.imgur.com/p1LolEp.gif" width="300" height="600" />
 <img src="https://i.imgur.com/0WVUhdW.gif" width="300" height="600" />
-<img src="https://i.imgur.com/ehGs7lE.gif" width="500" height="1000" />
+<img src="https://i.imgur.com/ehGs7lE.gif" width="300" height="600" />
 
 <a href="https://i.imgur.com/713wo6f.gif">click for full gif</a>
 
