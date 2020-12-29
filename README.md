@@ -33,6 +33,7 @@ Here's a walkthrough of implemented user stories:
 
 <a href="https://i.imgur.com/713wo6f.gif">click to view gif</a>
 
+![](ezgif.com-gif-maker (1).gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
