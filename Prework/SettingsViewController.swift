@@ -16,10 +16,7 @@ class SettingsViewController: UIViewController {
     @IBOutlet weak var tip3Field: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        let defaults = UserDefaults.standard
-        tip1Field.text = String(Int(defaults.double(forKey: "tip1") * 100))
-        tip2Field.text = String(Int(defaults.double(forKey: "tip2") * 100))
-        tip3Field.text = String(Int(defaults.double(forKey: "tip3") * 100))
+        displayTipVals()
         tip1Field.becomeFirstResponder()
         
         // Do any additional setup after loading the view.
@@ -27,8 +24,15 @@ class SettingsViewController: UIViewController {
     
     @IBAction func onTap(_ sender: Any) {
         view.endEditing(true)
+        displayTipVals()
     }
-    
+    func displayTipVals()
+    {
+        let defaults = UserDefaults.standard
+        tip1Field.text = String(Int(defaults.double(forKey: "tip1") * 100))
+        tip2Field.text = String(Int(defaults.double(forKey: "tip2") * 100))
+        tip3Field.text = String(Int(defaults.double(forKey: "tip3") * 100))
+    }
 
     @IBAction func tip1Change(_ sender: Any) {
         let defaults = UserDefaults.standard
@@ -36,8 +40,6 @@ class SettingsViewController: UIViewController {
         tip1 = tip1 * 0.01
         defaults.set(tip1, forKey: "tip1")
         defaults.synchronize()
-        let test = defaults.double(forKey:"tip1")
-        print(test)
     }
     
     @IBAction func tip2Change(_ sender: Any) {
@@ -56,6 +58,13 @@ class SettingsViewController: UIViewController {
         defaults.synchronize()
     }
     
+    @IBAction func resetTips(_ sender: Any) {
+        let defaults = UserDefaults.standard
+        defaults.set(defaultTips[0], forKey: "tip1")
+        defaults.set(defaultTips[1], forKey: "tip2")
+        defaults.set(defaultTips[2], forKey: "tip3")
+        displayTipVals()
+    }
     /*
     // MARK: - Navigation
 
