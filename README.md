@@ -30,7 +30,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 ![](https://i.imgur.com/p1LolEp.gif)
-
+![](https://i.imgur.com/0WVUhdW.gif)
+![](https://i.imgur.com/ehGs7lE.gif)
 <a href="https://i.imgur.com/713wo6f.gif">click for full gif</a>
 
 
