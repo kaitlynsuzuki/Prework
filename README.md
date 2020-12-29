@@ -1,10 +1,10 @@
-# Pre-work - *Name of App Here*
+# Pre-work - *Tipsy*
 
-**Name of your app** is a tip calculator application for iOS.
+**Tipsy** is a tip calculator application for iOS.
 
 Submitted by: **Kaitlyn Suzuki**
 
-Time spent: **4** hours spent in total
+Time spent: **8** hours spent in total
 
 ## User Stories
 
@@ -22,7 +22,9 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] Included a Setting screen for the user to input their own tip values and a button to reset to the default values.
+- [x] Improved UI.
+- [x] Calculates cost per individual depending on the size of the party.
 
 ## Video Walkthrough
 
@@ -34,11 +36,13 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+- It was a bit difficult getting used to connecting the elements of the storyboard to the logic itself in the swift files.
+- I had some confusion dealing with the UserDefaults, but was able to make it work by looking through documentation and articles.
+- I struggled a bit when trying to make a more aesthetically pleasing interface.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2020] [Kaitlyn Suzuki]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
