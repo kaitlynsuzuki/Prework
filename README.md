@@ -31,7 +31,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 
-![](https://i.imgur.com/713wo6f.gif)
+<a href="https://i.imgur.com/713wo6f.gif">gif</a>
 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
